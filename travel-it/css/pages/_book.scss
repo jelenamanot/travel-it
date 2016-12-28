@@ -1,0 +1,42 @@
+.city-section {
+	width: 80%;
+	margin: 2% auto;
+	h3 {
+		margin-top: 5%;
+		font-size: 150%;
+		font-weight: normal;
+		color: $brand-color;
+	}
+	form {
+		// text-align: center;
+		select, input, label {
+			display: block;
+			font-size: 150%;
+			font-family: $text-font-stack;
+			margin-bottom: 2%;
+		}
+		.select-option {
+			background-color: $brand-color;
+			color: $light-grey;
+			padding: 1% 10.3% 1% 1%;
+			@include border-radius(5px);
+			outline: none;
+			border: none;
+		}
+		input[type=date] {
+			@extend .select-option;
+			padding: 1%;
+		}
+		input[type=submit]{
+			@extend .select-option;
+			padding: 2% 5%;
+			@include border-radius(15px);
+		}
+		input[type=submit]:hover{
+			@extend .select-option;
+			padding: 5%;
+			background-color: #fff;
+			@include transition(all 0.3s linear);
+		}
+	}
+}

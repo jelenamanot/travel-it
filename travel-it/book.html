@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Travel It Today | Online travel agency</title>
+	<link href="https://fonts.googleapis.com/css?family=Lobster|Raleway:400,500,700" rel="stylesheet">
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="shortcut icon" type="image/png" href="img/favicon.png">
+</head>
+<body>
+<div class="wrapper">
+	<!-- START Header -->
+	<header>
+		<nav>
+			<a href="index.html"><img src="img/travel-logo-grey.png" alt="grey-logo"></a>
+			<ul>
+				<li><a href="index.html" class="nav-link">Home</a></li>
+				<li><a href="index.html#mission" class="nav-link">Our Mission</a></li>
+				<li><a href="index.html#cities" class="nav-link">Cities</a></li>
+				<li><a href="book.html" class="nav-link">Book</a></li>
+				<li><a href="index.html#contact" class="nav-link">Contact</a></li>
+			</ul>
+		</nav>
+		<div class="clearfix"></div>
+		
+		<section class="section city-section">
+			<h2>"I want to travel it today!"</h2>
+				<h3>Pick city & date</h3>
+				<form action="book.html">
+					<select class="select-option">
+  						<option value="london">London</option>
+  						<option value="paris">Paris</option>
+ 						<option value="newyork">New York</option>
+  						<option value="amsterdam">Amsterdam</option>
+  						<option value="budapest">Budapest</option>
+  						<option value="barcelona">Barcelona</option>
+					</select>
+					<label for="from">From</label><input type="date" id="from">
+					<label for="to">To</label><input type="date" id="to">
+					<input type="submit" value="book">
+				</form>	
+		</section>
+	</header>
+	<!-- END Header -->
+	<!-- START Footer -->
+	<footer class="section">
+		<section class="row" id="contact">
+			<section class="one-third">
+				<h3>Travel it today</h3>
+				<ul>
+					<li><a href="index.html" class="nav-link">Home</a></li>
+					<li><a href="#mission" class="nav-link">Our Mission</a></li>
+					<li><a href="#cities" class="nav-link">Cities</a></li>
+					<li><a href="book.html" class="nav-link">Book</a></li>
+				</ul>
+			</section>
+			<section class="two-third">
+				<h3>Subscribe to our newsletter!</h3>
+				<form action="index.html">
+					<input type="text" name="name" placeholder="Your Name">
+					<input type="email" name="email" placeholder="Your Email">
+					<input type="submit" class="submit-news" value="Subscribe">
+					<br>
+					<input type="checkbox" id="offers"><label for="offers">Send me offers every Friday</label>
+				</form>
+			</section>
+		</section>
+		<ul class="social-icons">
+			<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+			<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+			<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+			<li><a href="#"><i class="fa fa-youtube"></i></a></li>
+			<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+		</ul>
+		<p>&copy; by <a href="http://www.github.com/jelenanesic">Jelena</a>, 2016.</p>
+	</footer>
+</div>
+	<!-- END Footer -->
+	<script src="js/vendor/jquery-3.1.0.min.js"></script>
+	<!-- <script src="js/vendor/jquery.waypoints.min.js"></script> -->
+	<script src="js/main.js"></script>
+</body>
+</html>

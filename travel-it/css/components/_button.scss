@@ -1,0 +1,76 @@
+//Navigation
+.nav-link:link,
+.nav-link:visited {
+	color: $dark-grey;
+	text-decoration: none;
+	@include transition(all 0.1s linear);
+}
+.nav-link:hover,
+.nav-link:active {
+	border-bottom: 3px solid $brand-color;
+}
+
+//Call-to-action button
+.btn-cta:link,
+.btn-cta:visited {
+	background-color: $brand-color;
+	color: $light-grey;
+	padding: 0.5% 4%;
+	@include transition(all 0.3s linear);
+	text-decoration: none;
+	font-size: 140%;
+	border: 2px solid $brand-color;
+	@include border-radius(33.5px);
+}
+.btn-cta:hover,
+.btn-cta:active {
+	font-size: 170%;
+}
+
+//Book call-to-action button
+.btn-cta-book:link,
+.btn-cta-book:visited {
+	background-color: $dark-brand-color;
+	color: $light-grey;
+	padding: 0.5% 4%;
+	@include transition(all 0.3s linear);
+	text-decoration: none;
+	font-size: 140%;
+	border: 2px solid $dark-brand-color;
+	@include border-radius(33.5px);
+}
+.btn-cta-book:hover,
+.btn-cta-book:active {
+	background-color: $light-grey;
+	color: $dark-brand-color;
+}
+
+//White book
+.white-book:link,
+.white-book:visited {
+	@extend .btn-cta-book;
+	font-size: 120%;
+	font-weight: bold;
+	padding: 0.5% 3%;
+	background-color: $light-grey;
+	color: $dark-brand-color;
+	border: none;
+
+}
+.white-book:hover,
+.white-book:active {
+	@extend .btn-cta-book;
+	background-color: $dark-brand-color;
+	color: $light-grey;
+}
+
+//City button 
+.city-btn:link,
+.city-btn:visited {
+	@include transition(all 0.3s linear);
+	text-decoration: none;
+}
+.city-btn:hover,
+.city-btn:active {
+	color: $brand-color;
+}
