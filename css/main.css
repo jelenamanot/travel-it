@@ -578,6 +578,11 @@ header .hamburger {
   visibility: hidden;
 }
 
+.header-no-background {
+  height: auto;
+  background-image: none;
+}
+
 footer p {
   color: #666666;
   text-align: center;
@@ -924,24 +929,37 @@ footer #contact .two-third form label {
 }
 
 .city-section {
-  width: 80%;
-  margin: 2% auto;
+  background-color: #330066;
+  margin: auto;
+  width: 100%;
+}
+.city-section h2 {
+  color: #bf9fdf;
 }
 .city-section h3 {
   margin-top: 5%;
   font-size: 150%;
   font-weight: normal;
-  color: #663399;
+  color: #bf9fdf;
 }
-.city-section form select, .city-section form input, .city-section form label {
+.city-section form {
+  margin: auto;
+  width: 70%;
+  border: 3px solid #663399;
+  padding: 1% 5% 1% 5%;
+}
+.city-section form select, .city-section form input[type=date], .city-section form label {
+  width: 100%;
   display: block;
-  font-size: 150%;
+  font-size: 130%;
   font-family: "Raleway", "Arial", sans-serif;
+  color: #330066;
   margin-bottom: 2%;
 }
-.city-section form .select-option, .city-section form input[type=date], .city-section form input[type=submit], .city-section form input[type=submit]:hover {
-  background-color: #663399;
-  color: #ededed;
+.city-section form .select-option, .city-section form input[type=date], .city-section form input[type=submit] {
+  background-color: #bf9fdf;
+  color: #444444;
+  font-size: 130%;
   padding: 1% 10.3% 1% 1%;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -953,14 +971,16 @@ footer #contact .two-third form label {
   padding: 1%;
 }
 .city-section form input[type=submit] {
-  padding: 2% 5%;
-  -webkit-border-radius: 15px;
-  -moz-border-radius: 15px;
-  border-radius: 15px;
+  width: 50%;
+  padding: 1% 4%;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  text-transform: uppercase;
 }
 .city-section form input[type=submit]:hover {
-  padding: 5%;
-  background-color: #fff;
+  background-color: #ededed;
+  color: #663399;
   -webkit-transition: all 0.3s linear;
   -moz-transition: all 0.3s linear;
   -ms-transition: all 0.3s linear;
@@ -1014,6 +1034,10 @@ footer #contact .two-third form label {
 
   #book-today h1 {
     font-size: 200%;
+  }
+
+  header .city-section form {
+    width: 15%;
   }
 }
 /*Small tablet to big tablet: 768px-1022px*/
@@ -1182,5 +1206,12 @@ footer #contact .two-third form label {
     text-align: center;
     float: none;
     width: auto;
+  }
+
+  .city-section h3 {
+    font-size: 130%;
+  }
+  .city-section form {
+    width: 100%;
   }
 }

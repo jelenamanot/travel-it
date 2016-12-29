@@ -1,23 +1,33 @@
 .city-section {
-	width: 80%;
-	margin: 2% auto;
+	background-color: $dark-brand-color;
+	margin: auto;
+    width: 100%;
+    h2 {
+    	color: lighten($brand-color, 35%);
+    }
 	h3 {
 		margin-top: 5%;
 		font-size: 150%;
 		font-weight: normal;
-		color: $brand-color;
+		color: lighten($brand-color, 35%);
 	}
 	form {
-		// text-align: center;
-		select, input, label {
+		margin: auto;
+    	width: 70%;
+    	border: 3px solid $brand-color;
+    	padding: 1% 5% 1% 5%;
+		select, input[type=date], label {
+			width: 100%;
 			display: block;
-			font-size: 150%;
+			font-size: 130%;
 			font-family: $text-font-stack;
+			color: $dark-brand-color;
 			margin-bottom: 2%;
 		}
 		.select-option {
-			background-color: $brand-color;
-			color: $light-grey;
+			background-color: lighten($brand-color, 35%);
+			color:$dark-grey;
+			font-size: 130%;
 			padding: 1% 10.3% 1% 1%;
 			@include border-radius(5px);
 			outline: none;
@@ -29,13 +39,14 @@
 		}
 		input[type=submit]{
 			@extend .select-option;
-			padding: 2% 5%;
-			@include border-radius(15px);
+			width: 50%;
+			padding: 1% 4%;
+			@include border-radius(5px);
+			text-transform: uppercase;
 		}
 		input[type=submit]:hover{
-			@extend .select-option;
-			padding: 5%;
-			background-color: #fff;
+			background-color: $light-grey;
+			color: $brand-color;
 			@include transition(all 0.3s linear);
 		}
 	}

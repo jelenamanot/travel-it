@@ -13,38 +13,44 @@
 <body>
 <div class="wrapper">
 	<!-- START Header -->
-	<header>
+	<header class="header-no-background">
 		<nav>
+			<a href="#" class="hamburger">
+       			<i class="fa fa-bars"></i>
+			</a>
 			<a href="index.html"><img src="img/travel-logo-grey.png" alt="grey-logo"></a>
-			<ul>
+			<ul class="menu">
 				<li><a href="index.html" class="nav-link">Home</a></li>
-				<li><a href="index.html#mission" class="nav-link">Our Mission</a></li>
-				<li><a href="index.html#cities" class="nav-link">Cities</a></li>
+				<li><a href="#mission" class="nav-link">Our Mission</a></li>
+				<li><a href="#cities" class="nav-link">Cities</a></li>
 				<li><a href="book.html" class="nav-link">Book</a></li>
-				<li><a href="index.html#contact" class="nav-link">Contact</a></li>
+				<li><a href="#contact" class="nav-link">Subscribe</a></li>
 			</ul>
+			
+			<div class="clearfix"></div>
 		</nav>
 		<div class="clearfix"></div>
-		
-		<section class="section city-section">
-			<h2>"I want to travel it today!"</h2>
-				<h3>Pick city & date</h3>
-				<form action="book.html">
-					<select class="select-option">
-  						<option value="london">London</option>
-  						<option value="paris">Paris</option>
- 						<option value="newyork">New York</option>
-  						<option value="amsterdam">Amsterdam</option>
-  						<option value="budapest">Budapest</option>
-  						<option value="barcelona">Barcelona</option>
-					</select>
-					<label for="from">From</label><input type="date" id="from">
-					<label for="to">To</label><input type="date" id="to">
-					<input type="submit" value="book">
-				</form>	
-		</section>
 	</header>
 	<!-- END Header -->
+	<!-- START Book -->
+	<section class="section city-section">
+		<h2>"I want to travel it today!"</h2>
+			<form action="book.html">
+			<h3>Pick city & date</h3>
+				<select class="select-option">
+  					<option value="london">London</option>
+  					<option value="paris">Paris</option>
+ 					<option value="newyork">New York</option>
+  					<option value="amsterdam">Amsterdam</option>
+  					<option value="budapest">Budapest</option>
+  					<option value="barcelona">Barcelona</option>
+				</select>
+				<input type="date" id="from">
+				<input type="date" id="to">
+				<input type="submit" value="book">
+			</form>	
+	</section>
+	<!-- END Book -->
 	<!-- START Footer -->
 	<footer class="section">
 		<section class="row" id="contact">
@@ -80,7 +86,8 @@
 </div>
 	<!-- END Footer -->
 	<script src="js/vendor/jquery-3.1.0.min.js"></script>
-	<!-- <script src="js/vendor/jquery.waypoints.min.js"></script> -->
-	<script src="js/main.js"></script>
+	<script src="js/smooth-scroll.js"></script>
+	<script src="js/popup.js"></script>
+	<script src="js/menu.js"></script>
 </body>
 </html>

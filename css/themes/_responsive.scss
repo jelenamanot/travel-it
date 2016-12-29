@@ -71,6 +71,10 @@
 		}
 
 	}
+
+	header .city-section form {
+		width: 15%;
+	}
 }
 
 
@@ -279,6 +283,15 @@
 			text-align: center;
 			float: none;
 			width: auto;
+		}
+	}
+
+	.city-section {
+		h3 {
+			font-size: 130%;
+		}
+		form {
+    		width: 100%;
 		}
 	}
 }
