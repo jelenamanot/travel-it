@@ -670,7 +670,7 @@ footer #contact .two-third form label {
   width: 100%;
   height: 100%;
 }
-.popup-position #popup-wrapper {
+.popup-position .popup-wrapper {
   width: 50%;
   margin: 100px auto;
   text-align: left;
@@ -678,19 +678,19 @@ footer #contact .two-third form label {
   -moz-box-shadow: 10px 8px 15px -4px #333333;
   box-shadow: 10px 8px 15px -4px #333333;
 }
-.popup-position #popup-container {
+.popup-position .popup-container {
   padding: 5%;
   background-color: #fff;
   color: #666666;
   overflow: hidden;
 }
-.popup-position #popup-container i {
+.popup-position .popup-container i {
   font-size: 140%;
   display: block;
   float: right;
 }
-.popup-position #popup-container i:hover,
-.popup-position #popup-container i:active {
+.popup-position .popup-container i:hover,
+.popup-position .popup-container i:active {
   color: #ededed;
   -webkit-transition: all 0.5s linear;
   -moz-transition: all 0.5s linear;
@@ -698,68 +698,68 @@ footer #contact .two-third form label {
   -o-transition: all 0.5s linear;
   transition: all 0.5s linear;
 }
-.popup-position #popup-container h3 {
+.popup-position .popup-container h3 {
   color: #fff;
   font-size: 200%;
   padding: 0;
   margin: 0 0 2% 0;
   font-family: "Lobster", cursive;
 }
-.popup-position #popup-container p {
+.popup-position .popup-container p {
   background-color: rgba(255, 255, 255, 0.2);
   color: #fff;
   padding: 3%;
   font-size: 90%;
   line-height: 150%;
 }
-.popup-position #popup-container p span {
+.popup-position .popup-container p span {
   font-size: 110%;
   font-weight: bold;
   display: block;
   margin-bottom: 1%;
 }
-.popup-position #popup-container .about-city {
+.popup-position .popup-container .about-city {
   float: left;
   width: 49%;
   margin-right: 2%;
   margin-bottom: 7%;
 }
-.popup-position #popup-container .sights-city {
+.popup-position .popup-container .sights-city {
   float: left;
   width: 49%;
 }
 
-#popup-box1 #popup-container {
+#popup-box1 .popup-container {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/cities/london.jpg);
   background-position: center;
   background-size: cover;
 }
 
-#popup-box2 #popup-container {
+#popup-box2 .popup-container {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/cities/paris.jpg);
   background-position: center;
   background-size: cover;
 }
 
-#popup-box3 #popup-container {
+#popup-box3 .popup-container {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/cities/newyork.jpg);
   background-position: center;
   background-size: cover;
 }
 
-#popup-box4 #popup-container {
+#popup-box4 .popup-container {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/cities/amsterdam.jpg);
   background-position: center;
   background-size: cover;
 }
 
-#popup-box5 #popup-container {
+#popup-box5 .popup-container {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/cities/budapest.jpg);
   background-position: center;
   background-size: cover;
 }
 
-#popup-box6 #popup-container {
+#popup-box6 .popup-container {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/cities/barcelona.jpg);
   background-position: center;
   background-size: cover;
@@ -1001,11 +1001,11 @@ footer #contact .two-third form label {
     font-size: 150%;
   }
 
-  .popup-position #popup-wrapper {
+  .popup-position .popup-wrapper {
     width: 60%;
     margin: 1% auto;
   }
-  .popup-position #popup-wrapper #popup-container {
+  .popup-position .popup-wrapper .popup-container {
     font-size: 90%;
   }
 
@@ -1024,11 +1024,11 @@ footer #contact .two-third form label {
     padding-top: 15%;
   }
 
-  .popup-position #popup-wrapper {
+  .popup-position .popup-wrapper {
     width: 80%;
     margin: 2% auto;
   }
-  .popup-position #popup-wrapper #popup-container {
+  .popup-position .popup-wrapper .popup-container {
     font-size: 80%;
   }
 
@@ -1120,12 +1120,12 @@ footer #contact .two-third form label {
     margin: 0 4% 0 1%;
   }
 
-  .popup-position #popup-wrapper #popup-container .about-city {
+  .popup-position .popup-wrapper .popup-container .about-city {
     width: 100%;
     margin-right: 2%;
     margin-bottom: 1%;
   }
-  .popup-position #popup-wrapper #popup-container .sights-city {
+  .popup-position .popup-wrapper .popup-container .sights-city {
     width: 100%;
   }
 
@@ -1180,15 +1180,19 @@ footer #contact .two-third form label {
     font-size: 140%;
   }
 
+  #mission p {
+    font-size: 90%;
+  }
+
   #cities .all-cities .one-third {
     width: 100%;
   }
 
-  .popup-position #popup-wrapper {
+  .popup-position .popup-wrapper {
     width: 100%;
     margin: 1.5% auto;
   }
-  .popup-position #popup-wrapper #popup-container {
+  .popup-position .popup-wrapper .popup-container {
     font-size: 80%;
   }
 

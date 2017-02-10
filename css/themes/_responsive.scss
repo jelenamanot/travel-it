@@ -18,10 +18,10 @@
 	
 	//Popup city
 	.popup-position {
-		#popup-wrapper {
+		.popup-wrapper {
 			width: 60%;
 			margin: 1% auto;
-			#popup-container {
+			.popup-container {
 				font-size: 90%;
 			}
 		}
@@ -51,10 +51,10 @@
 	}
 
 	.popup-position {
-		#popup-wrapper {
+		.popup-wrapper {
 			width: 80%;
 			margin: 2% auto;
-			#popup-container {
+			.popup-container {
 				font-size: 80%;
 			}
 		}
@@ -176,8 +176,8 @@
 		}	
 	}
 	.popup-position {
-		#popup-wrapper {
-			#popup-container {
+		.popup-wrapper {
+			.popup-container {
 				.about-city {
 					width: 100%;
 					margin-right: 2%;
@@ -252,6 +252,10 @@
 				}
 		}
 	}	
+    
+    #mission p {
+        font-size: 90%;
+    }
 
 	#cities {
 		.all-cities {
@@ -261,10 +265,10 @@
 		}
 	}
 	.popup-position {
-		#popup-wrapper {
+		.popup-wrapper {
 			width: 100%;
 			margin: 1.5% auto;
-			#popup-container {
+			.popup-container {
 				font-size: 80%;
 			}
 		}

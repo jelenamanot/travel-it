@@ -6,7 +6,7 @@
 	background-color: rgba(102, 102, 192, 0.8);
 	width: 100%;
 	height: 100%;
-	#popup-wrapper {
+	.popup-wrapper {
 		width: 50%;
 		margin: 100px auto;
 		text-align: left;
@@ -14,7 +14,7 @@
 		-moz-box-shadow: 10px 8px 15px -4px rgba(51,51,51,1);
 		box-shadow: 10px 8px 15px -4px rgba(51,51,51,1);
 	}
-	#popup-container {
+	.popup-container {
 		padding: 5%;
 		background-color: #fff;
 		color: $mid-grey;
@@ -70,7 +70,7 @@
 
 //City Pop Up Boxes
 #popup-box1 {
-	#popup-container {
+	.popup-container {
 		background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../img/cities/london.jpg);
 		background-position: center;
 		background-size: cover;
@@ -78,7 +78,7 @@
 }
 
 #popup-box2 {
-	#popup-container {
+	.popup-container {
 		background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../img/cities/paris.jpg);
 		background-position: center;
 		background-size: cover;
@@ -86,7 +86,7 @@
 }
 
 #popup-box3 {
-	#popup-container {
+	.popup-container {
 		background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../img/cities/newyork.jpg);
 		background-position: center;
 		background-size: cover;
@@ -94,7 +94,7 @@
 }
 
 #popup-box4 {
-	#popup-container {
+	.popup-container {
 		background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../img/cities/amsterdam.jpg);
 		background-position: center;
 		background-size: cover;
@@ -102,7 +102,7 @@
 }
 
 #popup-box5 {
-	#popup-container {
+	.popup-container {
 		background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../img/cities/budapest.jpg);
 		background-position: center;
 		background-size: cover;
@@ -110,7 +110,7 @@
 }
 
 #popup-box6 {
-	#popup-container {
+	.popup-container {
 		background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../img/cities/barcelona.jpg);
 		background-position: center;
 		background-size: cover;
