@@ -198,6 +198,18 @@
 			font-size: 80%;
 		}
 	}
+    .city-section form{
+        select, input[type=date], label {
+            width: 100%;
+            margin: 5% auto;
+        }
+        input[type=submit]{
+			width: 53%;
+			padding: 1.2% 4%;
+			@include border-radius(55px);
+			text-transform: uppercase;
+		}
+    }
 
 	footer {
 		#contact {

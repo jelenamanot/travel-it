@@ -549,6 +549,7 @@ header {
 }
 header nav {
   width: 100%;
+  margin-bottom: 0.6%;
 }
 header nav img {
   width: 8%;
@@ -934,22 +935,22 @@ footer #contact .two-third form label {
   width: 100%;
 }
 .city-section h2 {
-  color: #bf9fdf;
+  color: #f2ecf9;
 }
 .city-section h3 {
-  margin-top: 5%;
+  margin-top: 1%;
   font-size: 150%;
   font-weight: normal;
-  color: #bf9fdf;
+  color: #d9c6ec;
 }
 .city-section form {
-  margin: auto;
+  margin: 0 auto 3% auto;
   width: 70%;
   border: 3px solid #663399;
   padding: 1% 5% 1% 5%;
 }
 .city-section form select, .city-section form input[type=date], .city-section form label {
-  width: 100%;
+  width: 70%;
   display: block;
   font-size: 130%;
   font-family: "Raleway", "Arial", sans-serif;
@@ -957,8 +958,8 @@ footer #contact .two-third form label {
   margin-bottom: 2%;
 }
 .city-section form .select-option, .city-section form input[type=date], .city-section form input[type=submit] {
-  background-color: #bf9fdf;
-  color: #444444;
+  background-color: #d9c6ec;
+  color: black;
   font-size: 130%;
   padding: 1% 10.3% 1% 1%;
   -webkit-border-radius: 5px;
@@ -971,11 +972,14 @@ footer #contact .two-third form label {
   padding: 1%;
 }
 .city-section form input[type=submit] {
-  width: 50%;
-  padding: 1% 4%;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
+  background-color: #8c53c6;
+  cursor: pointer;
+  color: #ededed;
+  width: 23%;
+  padding: 1.2% 4%;
+  -webkit-border-radius: 55px;
+  -moz-border-radius: 55px;
+  border-radius: 55px;
   text-transform: uppercase;
 }
 .city-section form input[type=submit]:hover {
@@ -1136,6 +1140,19 @@ footer #contact .two-third form label {
   #book-today .white-book:visited, #book-today .white-book:hover,
   #book-today .white-book:active {
     font-size: 80%;
+  }
+
+  .city-section form select, .city-section form input[type=date], .city-section form label {
+    width: 100%;
+    margin: 5% auto;
+  }
+  .city-section form input[type=submit] {
+    width: 53%;
+    padding: 1.2% 4%;
+    -webkit-border-radius: 55px;
+    -moz-border-radius: 55px;
+    border-radius: 55px;
+    text-transform: uppercase;
   }
 
   footer #contact h3 {
